@@ -1,0 +1,8 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.pluglibrary" >
+
+    <application>
+        <activity android:name=".activity.ProxyActivity" android:screenOrientation="portrait"/>
+        <service android:name=".service.ProxyService" android:exported="true" />
+    </application>
+</manifest>

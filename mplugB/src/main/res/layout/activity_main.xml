@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/mStartService"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#EEAADD"
+        android:gravity="center"
+        android:text="start启动插件B的service"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/mBindService"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#CCFFEE"
+        android:gravity="center"
+        android:text="bind启动插件B的service"
+        android:textStyle="bold" />
+
+</LinearLayout>

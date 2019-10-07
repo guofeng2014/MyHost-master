@@ -1,0 +1,4 @@
+include ':app', ':mplugA', ':pluglibrary', ':mplugB'
+project(':app').projectDir = new File('app')
+project(':mplugA').projectDir = new File('mplugA')
+project(':mplugB').projectDir = new File('mplugB')
